@@ -44,9 +44,47 @@
     padding: .5rem .75rem;
     border-radius: 10px;
     color: rgb(227, 227, 227);
+    text-decoration: none;
 }
 
 .nav_link:hover {
     background: rgb(22, 32, 47);
 }
 
+.nav_link .is_active {
+    outline: 2px solid rgb(78, 149, 255);
+}
+
+#nav_toggle {
+    display: none;
+}
+
+.nav_icon {
+    font-size: 1.5rem;
+    color: black;
+    display: none;
+}
+
+/* Mobile Navbar */
+@media (max-width: 760px) {
+    .nav_icon {
+        display: inline-block;
+    }
+
+    .nav_list {
+        position: absolute;
+        right: 1rem;
+        top: 64px;
+        background: rgb(17, 35, 41);
+        border: 1px solid black;
+        border-radius: 14px;
+        padding: .5rem;
+        display: none;
+        flex-direction: column;
+        gap: .25rem;
+    }
+
+    #nav_toggle:checked + .nav_icon + .nav_list {
+        display: flex;
+    }
+}
