@@ -51,3 +51,31 @@ footer {
     gap: .75rem;
     flex-wrap: wrap;
 }
+
+/* Skills Section */
+.skills {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, min-max(260px, 1fr));
+    border: 1px var(--border);
+    border-radius: 14px;
+    padding: 1rem;
+    background: rgba(17,22,35,.35);
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.tags li {
+    padding: .35rem .6rem;
+    border-radius: 999px;
+    background: rgba(17, 24, 41, 0.35);
+    border: 1px solid var(--border);
+    color: rgb(227, 228, 233);
+    font-size: .9rem;
+}
