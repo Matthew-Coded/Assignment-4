@@ -9,7 +9,8 @@
   --text: whitesmoke;
   --muted: rgb(164, 174, 177);
   --primary: rgb(88, 130, 253);
-  --primary-700: rgb(73, 123, 193);
+  /* makes a darker shade higher then number */
+  --primary-700: rgb(88, 130, 253);
   --border: rgb(25, 36, 50);
 }
 
@@ -105,5 +106,22 @@
     display: inline-block;
     padding: .6rem 1rem;
     border-radius: 12px;
-    background: ;
+    background: var(--primary);
+    color: white;
+    border: 1px solid transparent;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: var(--primary-700);
+}
+
+.button_outline {
+    background: transparent;
+    color: white;
+    border-color: var(--border);
+}
+
+.button_outline:hover {
+    border-color: var(--primary);
 }
