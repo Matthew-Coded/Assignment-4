@@ -4,7 +4,7 @@
     /* grid-template-rows: ; */
     grid-template-areas: 
     "header header header"
-    "aside main main"
+    "main main main"
     "footer footer footer";
 
 }
@@ -17,11 +17,6 @@ header {
 main {
     background-color: red;
     grid-area: main;
-}
-
-aside {
-    background-color: yellow;
-    grid-area: aside;
 }
 
 footer {
