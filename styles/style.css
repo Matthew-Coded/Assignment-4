@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Navbar */
 .header {
     position: sticky;
     background: rgba(136, 136, 136, 0.8);

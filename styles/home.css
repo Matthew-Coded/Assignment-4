@@ -29,3 +29,25 @@ footer {
     grid-area: footer;
 }
 
+/* Hero Section */
+.hero {
+    /* top bottom padding "clamp(min, med, max) */
+    padding: clamp(3rem, 5vw, 5rem) 0; 
+}
+
+.hero_text h1 {
+    font-size: clamp(1.8rem, 3.2vw, 3rem);
+    line-height: 1.15;
+    margin: 0 0 .75;
+}
+
+.hero_text p {
+    color: rgb(214, 245, 255);
+    margin: .25rem 0 1.25rem;
+}
+
+.hero_cta {
+    display: flex;
+    gap: .75rem;
+    flex-wrap: wrap;
+}
