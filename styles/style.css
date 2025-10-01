@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+:root {
+  --bg: rgb(7, 11, 12);
+  --panel: rgb(17, 16, 35);
+  --text: whitesmoke;
+  --muted: rgb(164, 174, 177);
+  --primary: rgb(88, 130, 253);
+  --primary-700: rgb(73, 123, 193);
+  --border: rgb(25, 36, 50);
+}
+
 /* Navbar */
 .header {
     position: sticky;
@@ -88,4 +98,12 @@
     #nav_toggle:checked + .nav_icon + .nav_list {
         display: flex;
     }
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: .6rem 1rem;
+    border-radius: 12px;
+    background: ;
 }
