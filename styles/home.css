@@ -15,12 +15,12 @@ header {
 }
 
 main {
-    background-color: red;
+    background-color: rgb(155, 175, 168);
     grid-area: main;
 }
 
 footer {
-    background-color: greenyellow;
+    background-color: rgba(136, 136, 136, 0.8);
     grid-area: footer;
 }
 
@@ -74,3 +74,45 @@ footer {
     color: rgb(227, 228, 233);
     font-size: .9rem;
 }
+
+/* Projects Section */
+.project_grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.projects {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    overflow: hidden;
+    background: rgba(17,22,35,.45);
+}
+
+.project_image {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    width: 100%;
+    background: rgb(18, 24, 42);
+    color: white;
+}
+
+.project_content {
+    padding: 1rem;
+}
+
+.project_title {
+    margin: .4rem 0 .3rem;
+}
+
+.project_description {
+    color: var(--muted);
+    margin: 0 0 .8rem;
+}
+
+.project_links {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
