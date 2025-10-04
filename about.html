@@ -3,16 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/about.css">
 </head>
 <body>
-    <header>Header</header>
-    
-    <aside>Aside</aside>
+    <header class="header">
+        <div class="container nav_wrap">
+            <a href="" class="logo" href="index.html">MB</a>
+            <nav class="nav">
+                <!-- Mobile Navbar -->
+                <input type="checkbox" id="nav_toggle">
+                <label for="nav_toggle" class="nav_icon">☰</label>
+                
+                <ul class="nav_list" id="navList">
+                    <li>
+                        <a href="home.html" class="nav_link">Home</a>
+                    </li>
 
-    <main>Main</main>
+                    <li>
+                        <a href="projects.html" class="nav_link">Projects</a>
+                    </li>
 
-    <Footer>Footer</Footer>
+                    <li>
+                        <a href="about.html" class="nav_link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav_link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="section">
+        <div class="container narrow">
+            <h1 class="section_title">
+                About Me
+            </h1>
+            <p>
+                I'm a developer focused on Python backends and modern frontend stacks. I like clean UI, tight feedback loops, and shipping small improvements daily.
+            </p>
+            <h2>
+                Tech I use
+            </h2>
+            <ul class="tags">
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <h2>
+                Currently
+            </h2>
+            <p>
+                Learning deeper backend patterns, and building personal projects.
+            </p>
+        </div>
+    </main>
+
+    <footer class="site_footer">
+        <div class="container footer_inner">
+            <p>
+                © <span id="year">2025</span> Matthew Bautista
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
