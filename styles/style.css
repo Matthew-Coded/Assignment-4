@@ -9,7 +9,7 @@
   --text: whitesmoke;
   --muted: rgb(164, 174, 177);
   --primary: rgb(88, 130, 253);
-  /* makes a darker shade higher then number */
+  /* makes a darker shade higher the number */
   --primary-700: rgb(88, 130, 253);
   --border: rgb(25, 36, 50);
 }
