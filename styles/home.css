@@ -1,4 +1,4 @@
-.body {
+/* .body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: ; */
@@ -7,7 +7,7 @@
     "main main main"
     "footer footer footer";
 
-}
+} */
 
 header {
     background-color: aqua;

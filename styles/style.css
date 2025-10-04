@@ -14,6 +14,21 @@
   --border: rgb(25, 36, 50);
 }
 
+header {
+    background-color: aqua;
+    grid-area: header;
+}
+
+main {
+    background-color: rgb(155, 175, 168);
+    grid-area: main;
+}
+
+footer {
+    background-color: rgba(136, 136, 136, 0.8);
+    grid-area: footer;
+}
+
 /* Navbar */
 .header {
     position: sticky;
@@ -127,4 +142,25 @@
 
 .button_outline:hover {
     border-color: var(--primary);
+}
+
+/* Sections */
+.section {
+    padding: 3rem 0;
+}
+
+.section_alt {
+    background: rgba(17,22,35,.55);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.section_title {
+    margin: 0 0.75rem;
+    font-size: clamp(1.3rem, 2.2vw, 2rem);
+}
+
+.section_lead {
+    color: var(--muted);
+    margin: 0 0 1.5rem;
 }
