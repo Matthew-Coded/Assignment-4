@@ -107,3 +107,22 @@ footer {
     flex-wrap: wrap;
 }
 
+.view_projects {
+    color: aqua;
+}
+
+.view_projects:hover {
+    color: yellowgreen;
+}
+
+.my-image {
+    /* width: 200px; */
+    display: flex;
+    min-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 207, 138);
+    margin: 1rem;
+}
